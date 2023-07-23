@@ -1,0 +1,34 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">-->
+
+<!--    <title>Your Web App</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <form action="/generate" method="post">-->
+<!--        <label for="question">Enter your question:</label><br>-->
+<!--        <input type="text" id="question" name="question" required><br>-->
+<!--        <input type="submit" value="Submit">-->
+<!--    </form>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Web App</title>
+    <!-- Link the styles.css file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <form action="/generate" method="post">
+        <!-- Add the class "bold-text" to make the text bold -->
+        <label for="question" class="bold-text">Enter your question:</label><br>
+        <!-- Add the class "center-align" to center-align the input box -->
+        <input type="text" id="question" name="question" class="center-align" required><br>
+        <!-- Add the class "center-align" to center-align the submit button -->
+        <input type="submit" value="Submit" class="center-align">
+    </form>
+</body>
+</html>
+

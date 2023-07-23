@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+    <title>Your Web App - Result</title>
+</head>
+<body>
+    <h3>Your Question:</h3>
+    <p>{{ query }}</p>
+    <h3>Generated Answer:</h3>
+    <p>{{ answer }}</p>
+</body>
+</html>

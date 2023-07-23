@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Styling for the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Styling for the bold-text class */
+.bold-text {
+    font-weight: bold;
+}
+
+/* Styling for the center-align class */
+.center-align {
+    /* Use flexbox to center the elements horizontally */
+    display: flex;
+    justify-content: center;
+    /* Set margin-top to add some space between elements */
+    margin-top: 10px;
+}
+
+/* Styling for the form element */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Styling for the input element */
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+    width: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

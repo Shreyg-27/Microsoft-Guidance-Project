@@ -25,3 +25,18 @@ It was important for me to know these basic terms and functionalities.
 2) By integrating my private dataset, I enabled the Language Model to access and augment its responses with information specific to my data. When a question is asked from my dataset, the system provides the relevant answer directly from the dataset.
 3) However, when the question is outside the scope of my private data, the system seamlessly falls back to the gpt2 model to generate an appropriate answer.
 4) To interact with this enhanced Language Model, I have created a user-friendly website using HTML, CSS, and Flask, where users can input their queries and get accurate responses tailored to my private dataset when available, thanks to the extended Guidance library.
+
+## Results 
+
+### Front Page:
+
+![image](https://github.com/Shreyg-27/Microsoft-Guidance-Project/assets/98229024/c7b603e1-9e1f-45bf-bd94-8b2972b4b656)
+
+### Outside the dataset: 
+
+![image](https://github.com/Shreyg-27/Microsoft-Guidance-Project/assets/98229024/97d2aa2c-1498-4dbf-8a8a-e469a25a4118)
+
+### From the dataset: 
+
+![image](https://github.com/Shreyg-27/Microsoft-Guidance-Project/assets/98229024/10498a35-4be5-48d0-9655-ad8c5e2d6fd1)
+
